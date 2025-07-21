@@ -20,11 +20,15 @@
 
             //sol.SetZeroes(new int[][] { [1, 2, 3, 4], [5, 0, 7, 8], [0, 10, 11, 12], [13, 14, 15, 0]});
 
-            Group_Anagrams res = new Group_Anagrams();
+            //Group_Anagrams res = new Group_Anagrams();
 
-            var ress = res.GroupAnagrams(new string[] { "eat", "tea", "tan", "ate", "nat", "bat" });
+            //var ress = res.GroupAnagrams(new string[] { "eat", "tea", "tan", "ate", "nat", "bat" });
 
-            Console.WriteLine();
+            Longest_Substring_Without_Repeating_Characters res = new Longest_Substring_Without_Repeating_Characters();
+
+            var ressult = res.LengthOfLongestSubstring("aaa");
+
+            Console.WriteLine(ressult);
         }
     }
 }
