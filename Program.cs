@@ -24,11 +24,21 @@
 
             //var ress = res.GroupAnagrams(new string[] { "eat", "tea", "tan", "ate", "nat", "bat" });
 
-            Longest_Substring_Without_Repeating_Characters res = new Longest_Substring_Without_Repeating_Characters();
+            //Longest_Substring_Without_Repeating_Characters res = new Longest_Substring_Without_Repeating_Characters();
 
-            var ressult = res.LengthOfLongestSubstring("aaa");
+            //var ressult = res.LengthOfLongestSubstring("aaa");
 
-            Console.WriteLine(ressult);
+            //Console.WriteLine(ressult);
+
+            //Sum3 sum = new Sum3();
+
+            //var res = sum.ThreeSum(new int[] { -2, 0, 1, 1, 2});
+
+            Longest_Palindromic_Substring res = new Longest_Palindromic_Substring();
+
+            res.LongestPalindrome("a");
+
+            Console.WriteLine();
         }
     }
 }
