@@ -34,11 +34,17 @@
 
             //var res = sum.ThreeSum(new int[] { -2, 0, 1, 1, 2});
 
-            Longest_Palindromic_Substring res = new Longest_Palindromic_Substring();
+            //Longest_Palindromic_Substring res = new Longest_Palindromic_Substring();
 
-            res.LongestPalindrome("a");
+            //var result = res.LongestPalindrome("bb");
 
-            Console.WriteLine();
+            //Console.WriteLine(result);
+            //Increasing_Triplet_Subsequence result = new Increasing_Triplet_Subsequence();
+
+            //var resultt = result.IncreasingTriplet(new int[] {2,4,-2,-3,});
+            //Console.WriteLine(resultt);
+
+
         }
     }
 }

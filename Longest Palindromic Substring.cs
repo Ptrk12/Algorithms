@@ -45,8 +45,28 @@ namespace Algorithms
         }
         public string LongestPalindrome(string s)
         {
-            var test =IsPalindrome(s);
-            return "";
+            var result = string.Empty;
+
+            if(s.Length == 1)
+            {
+                return s;
+            }
+
+            for(int i = 0;i<s.Length;i++)
+            {
+                for(int j = i+1;j<s.Length+1;j++)
+                {
+                    var substring = s.Substring(i, j - i);
+                    if (IsPalindrome(substring))
+                    {
+                        if(substring.Length > result.Length)
+                        {
+                            result = substring;
+                        }
+                    }
+                }
+            }
+            return result;
         }
     }
 }
