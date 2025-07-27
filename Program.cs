@@ -44,7 +44,9 @@
             //var resultt = result.IncreasingTriplet(new int[] {2,4,-2,-3,});
             //Console.WriteLine(resultt);
 
+            Count__adn_Say result = new Count__adn_Say();
 
+            Console.WriteLine(result.CountAndSay(5));
         }
     }
 }
