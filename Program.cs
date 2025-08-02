@@ -44,14 +44,22 @@
             //var resultt = result.IncreasingTriplet(new int[] {2,4,-2,-3,});
             //Console.WriteLine(resultt);
 
-            ListNode l11 = new ListNode(4);
-            ListNode l12 = new ListNode(1);
-            ListNode l13 = new ListNode(8);
+            ListNode l11 = new ListNode(1);
+            ListNode l12 = new ListNode(2);
+            ListNode l13 = new ListNode(3);
             ListNode l14 = new ListNode(4);
+            ListNode l15 = new ListNode(5);
+            //ListNode l16 = new ListNode(6);
+            //ListNode l17 = new ListNode(7);
+            //ListNode l18 = new ListNode(8);
 
             l11.next = l12;
             l12.next = l13;
             l13.next = l14;
+            l14.next = l15;
+            //l15.next = l16;
+            //l16.next = l17;
+            //l17.next = l18;
 
             ListNode l21 = new ListNode(5);
             ListNode l22 = new ListNode(6);
@@ -68,9 +76,14 @@
 
             //res.AddTwoNumbers(l11, l21);
 
-            Intersection_of_Two_Linked_Lists result = new Intersection_of_Two_Linked_Lists();
-            var res =result.GetIntersectionNode(l11, l21);
+            //Intersection_of_Two_Linked_Lists result = new Intersection_of_Two_Linked_Lists();
+            //var res =result.GetIntersectionNode(l11, l21);
+            //Console.WriteLine();
+            Odd_Even_Linked_List result = new Odd_Even_Linked_List();
+            var resulww = result.OddEvenList(l11);
+
             Console.WriteLine();
+
 
         }
     }
